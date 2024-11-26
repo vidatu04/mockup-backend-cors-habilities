@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const ProyectoJuventudSchema = new mongoose.Schema({
+
   nombre: {
     type: String,
     required: true
